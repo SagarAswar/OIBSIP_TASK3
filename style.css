@@ -1,0 +1,57 @@
+form{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto 2rem auto;
+    padding: 3% 2%;
+    background-color: rgb(243, 247, 247);
+    box-shadow:  0 0 15px rgb(198, 196, 196);
+}
+
+#displayResult{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#input{
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+button{
+    margin-right: 10px;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body::before {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: url("https://media.istockphoto.com/photos/thermometer-sun-high-degres-hot-summer-day-high-summer-temperatures-picture-id824845572?k=20&m=824845572&s=612x612&w=0&h=XckvIV6UcKwxBsM62xdTcKHDDhFNSJsoVjOrikS9Eqs=") no-repeat top center/cover;
+    opacity: 0.75;
+    z-index: -1;
+    
+}
